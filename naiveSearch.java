@@ -11,7 +11,7 @@ public class Main{
        int stringLength=txt.length();
        int patLength=pat.length();
        int j;
-       for(int i=0;i<stringLength-patLength;i++)
+       for(int i=0;i<=stringLength-patLength;i++)
        {
            for( j=0;j<patLength;j++)
            {
