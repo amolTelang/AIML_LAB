@@ -59,3 +59,8 @@ print(cm)
 print(" correct predicition",accuracy_score(y_test,y_pred))
 
 print(" worng predicition",(1-accuracy_score(y_test,y_pred)))
+
+import matplotlib.pyplot as plt
+plt.plot(y_test,y_pred)
+plt.show()
+
